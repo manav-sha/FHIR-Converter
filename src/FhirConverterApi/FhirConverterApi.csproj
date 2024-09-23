@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.0" />
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Health.Fhir.Liquid.Converter.Tool\Microsoft.Health.Fhir.Liquid.Converter.Tool.csproj" />
+    <ProjectReference Include="..\Microsoft.Health.Fhir.Liquid.Converter\Microsoft.Health.Fhir.Liquid.Converter.csproj" />
+    <ProjectReference Include="..\Microsoft.Health.Fhir.TemplateManagement\Microsoft.Health.Fhir.TemplateManagement.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -8,7 +8,7 @@ pr:
 variables:
   solution: '**/*.sln'
   unitTestProjects: "**/*UnitTests/*.csproj"
-  publishProject: "**/*Tool/*.csproj"
+  publishProject: "**/FhirConverterApi/*.csproj"
   functionalTests: "**/*FunctionalTests/*.csproj"
   buildConfiguration: 'Release'
   major: 5
